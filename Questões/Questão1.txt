@@ -1,0 +1,7 @@
+Questão 1
+
+t=0:0.01:1
+
+y=sin(2*%pi*t)+sin(3*2*%pi*t)/3+sin(5*2*%pi*t)/5+sin(7*2*%pi*t)/7+sin(9*2*%pi*t)/9+sin(11*2*%pi*t)/11
+
+plot (t(1:100), y(1:100))

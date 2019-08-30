@@ -1,0 +1,10 @@
+t=0:0.01:10
+
+
+x= 2*%pi
+
+
+y=(1/4)-(2/exp(%pi))*(cos(x*t)+cos(3*x*t)/3+cos(5*x*t)/5+cos(7*x*t)/7+cos(9*x*t)/9+cos(11*x*t)/11)-(1/%pi)*(-sin(x*t)-sin(2*x*t)/2-sin(3*x*t)/3-sin(4*x*t)/4-sin(5*x*t)/5-sin(6*x*t)/6)
+
+
+plot (t(1:1000), y(1:1000))
